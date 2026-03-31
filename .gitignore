@@ -1,0 +1,68 @@
+# ============================================
+# .gitignore for PUBLIC repository
+# Strips all user data, secrets, and caches
+# ============================================
+
+# --- Environment & Secrets ---
+.env
+.env.*
+.env.local
+.env.production
+
+# --- User Data & Betting Records ---
+data/
+backups/
+archive/
+
+# --- Claude Code / AI Tool State ---
+.claude/
+
+# --- Core Documentation (proprietary methodology) ---
+docs/DECISION_RULES.md
+docs/ENHANCEMENT_PROCEDURE.md
+docs/VERIFICATION_RULES.md
+docs/TEMPLATE_RULES.md
+docs/SYSTEM_DISCOVERY.md
+docs/selflearning.md
+docs/PRODUCTION_MONITOR.md
+docs/QA_TEST.md
+docs/linkedin/
+config/thresholds.py
+CLAUDE.md
+AGENTS.md
+
+# --- Databases ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# --- Logs ---
+logs/
+*.log
+nohup.out
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- UV / Build ---
+.uv/
+
+# --- Misc ---
+*.bak
+*.tmp
