@@ -6,7 +6,9 @@ An honest record of what happened when a casino IT guy tried to build a self-lea
 
 This project is less about the predictions and more about the method: what happens when you pair domain expertise with AI-assisted engineering? The system doesn't know if it's "right" yet — and that honesty is part of the story.
 
-> **Status**: Live paper trading. 340+ signals processed. System win rate: 55% and improving through self-calibration. The World Cup is the final exam.
+> **Status**: Live paper trading. The system is still learning. The World Cup is the final exam.
+>
+> **Source code**: Released progressively alongside my [LinkedIn series](https://www.linkedin.com/in/sky-leong-6a559290/). Follow the series to see the code evolve.
 
 ---
 
@@ -114,19 +116,18 @@ These are real lessons from 22 versions and 501 tests — each one triggered by 
 
 - **Domain expertise can't be replaced by data.** My partner's football judgment (85% win rate from manual filtering) consistently outperformed the system's unfiltered output (48%). The system got better not by becoming smarter, but by learning when to defer to human judgment.
 
-- **The system is still learning.** 340+ signals processed, 55% win rate and improving through self-calibration. Every result — win or loss — feeds back into the learning loop. The World Cup will be the real test.
+- **The system is still learning.** Every result — win or loss — feeds back into the learning loop. The system learns from the human. The human learns from the system's data. Both are students. The World Cup will be the real test.
 
 ---
 
-## Current Performance (Transparent)
+## Current Status
 
 | Metric | Value |
 |--------|-------|
-| Total signals processed | 340+ |
-| System win rate | ~55% (and calibrating) |
 | Version iterations | 22+ |
 | Automated tests | 501+ |
 | Status | Live paper trading, self-learning active |
+| Source code | Releasing progressively with LinkedIn series |
 
 > These numbers are shared for transparency, not as a claim of success. 55% is modest. The system is learning. The World Cup is the exam.
 
